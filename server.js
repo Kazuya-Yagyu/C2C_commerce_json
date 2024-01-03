@@ -9,12 +9,12 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 8000;
 const authUser = {
   id: '1',
-  username: 'sengoku',
-  displayName: 'Sengoku Busyou',
+  username: 'とある戦国大名',
+  displayName: 'とある戦国大名',
   email: 'sengoku@example.com',
   profileImageUrl: '/users/1.png',
   description:
-    'A certain great man who is said to have been active in the Warring States period.',
+    '#戦国大名 #国力 #兵力',
 };
 
 server.use(cookieParser());
