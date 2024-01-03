@@ -1,0 +1,200 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "古事記",
+      "description": "Something that existed a long time ago.",
+      "category": "book",
+      "imageUrl": "/products/books/book_japan_kojiki.png",
+      "price": 5000,
+      "condition": "new",
+      "owner": {
+        "id": 1,
+        "username": "sengoku",
+        "displayName": "Sengoku Busyou",
+        "email": "sengoku@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Something that existed a long time ago."
+      }
+    },
+    {
+      "id": 2,
+      "title": "古今和歌集",
+      "description": "Something that existed a long time ago.",
+      "category": "book",
+      "imageUrl": "/products/books/book_japan_kokinwa_kasyuu.png",
+      "price": 1000,
+      "condition": "new",
+      "owner": {
+        "id": 1,
+        "username": "sengoku",
+        "displayName": "Sengoku Busyou",
+        "email": "sengoku@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Something that existed a long time ago."
+      }
+    },
+    {
+      "id": 3,
+      "title": "万葉集",
+      "description": "Something that existed a long time ago.",
+      "category": "book",
+      "imageUrl": "/products/books/book_japan_manyousyuu.png",
+      "price": 500,
+      "condition": "used",
+      "owner": {
+        "id": 1,
+        "username": "sengoku",
+        "displayName": "Sengoku Busyou",
+        "email": "sengoku@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Something that existed a long time ago."
+      }
+    },
+    {
+      "id": 4,
+      "title": "他国のとある本",
+      "description": "Something that existed a long time ago.",
+      "category": "book",
+      "imageUrl": "/products/books/book_quran.png",
+      "price": 2000,
+      "condition": "new",
+      "owner": {
+        "id": 1,
+        "username": "sengoku",
+        "displayName": "Sengoku Busyou",
+        "email": "sengoku@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Something that existed a long time ago."
+      }
+    },
+    {
+      "id": 5,
+      "title": "他国のすごい本",
+      "description": "Something that existed a long time ago.",
+      "category": "book",
+      "imageUrl": "/products/books/book_sonshi_heihou.png",
+      "price": 3000,
+      "condition": "new",
+      "owner": {
+        "id": 3,
+        "username": "ashikaga",
+        "displayName": "Sugoi Ashikaga",
+        "email": "ashikaga@example.com",
+        "profileImageUrl": "/users/3.png",
+        "description": "Something that existed a long time ago."
+      }
+    },
+    {
+      "id": 20,
+      "title": "火縄銃",
+      "description": "Something that existed a long time ago.",
+      "category": "clothes",
+      "imageUrl": "/products/clothes/hinawaju.png",
+      "price": 1000,
+      "condition": "used",
+      "owner": {
+        "id": 1,
+        "username": "sengoku",
+        "displayName": "Sengoku Busyou",
+        "email": "sengoku@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Something that existed a long time ago."
+      }
+    },
+    {
+      "id": 21,
+      "title": "剣",
+      "description": "Something that existed a long time ago.",
+      "category": "clothes",
+      "imageUrl": "/products/clothes/war_etsuou_kousenken.png",
+      "price": 2000,
+      "condition": "used",
+      "owner": {
+        "id": 1,
+        "username": "sengoku",
+        "displayName": "Sengoku Busyou",
+        "email": "sengoku@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Something that existed a long time ago."
+      }
+    },
+    {
+      "id": 22,
+      "title": "弓矢",
+      "description": "Something that existed a long time ago.",
+      "category": "clothes",
+      "imageUrl": "/products/clothes/yumiya.png",
+      "price": 5000,
+      "condition": "new",
+      "owner": {
+        "id": 1,
+        "username": "sengoku",
+        "displayName": "Sengoku Busyou",
+        "email": "sengoku@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Something that existed a long time ago."
+      }
+    },
+    {
+      "id": 40,
+      "title": "下駄",
+      "description": "Something that existed a long time ago.",
+      "category": "shoes",
+      "imageUrl": "/products/shoes/shoes_geta.png",
+      "price": 6000,
+      "condition": "new",
+      "owner": {
+        "id": 1,
+        "username": "sengoku",
+        "displayName": "Sengoku Busyou",
+        "email": "sengoku@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Something that existed a long time ago."
+      }
+    },
+    {
+      "id": 41,
+      "title": "草鞋",
+      "description": "Something that existed a long time ago.",
+      "category": "shoes",
+      "imageUrl": "/products/shoes/shoes_zouri_waraji_setta.png",
+      "price": 12000,
+      "condition": "used",
+      "owner": {
+        "id": 1,
+        "username": "sengoku",
+        "displayName": "Sengoku Busyou",
+        "email": "sengoku@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Something that existed a long time ago."
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "sengoku",
+      "displayName": "Sengoku Busyou",
+      "email": "sengoku@example.com",
+      "profileImageUrl": "/users/1.png",
+      "description": "A certain great man who is said to have been active in the Warring States period."
+    },
+    {
+      "id": 2,
+      "username": "noumin",
+      "displayName": "Tadano Noumin",
+      "email": "noumin@example.com",
+      "profileImageUrl": "/users/2.png",
+      "description": "He is just a farmer who supposedly existed during the Warring States period."
+    },
+    {
+      "id": 3,
+      "username": "ashikaga",
+      "displayName": "Sugoi Ashikaga",
+      "email": "ashikaga@example.com",
+      "profileImageUrl": "/users/3.png",
+      "description": "He was a great fighter foot soldier in the Warring States period."
+    }
+  ]
+}
